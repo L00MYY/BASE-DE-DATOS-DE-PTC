@@ -3,3 +3,6 @@ CREATE USER 'administrador_sistema_registro_ptc_2024_desarrollador'@'localhost' 
 GRANT SELECT, INSERT, UPDATE, DELETE ON sistema_registro_ptc_2024.* TO 'administrador_sistema_registro_ptc_2024_desarrollador'@'localhost';
 GRANT CREATE ROUTINE, ALTER ROUTINE, CREATE VIEW, TRIGGER ON sistema_registro_ptc_2024.* TO 'administrador_sistema_registro_ptc_2024_desarrollador'@'localhost';
 FLUSH PRIVILEGES;
+
+SELECT User, Host FROM mysql.user;
+SHOW GRANTS FOR 'administrador_sistema_registro_ptc_2024_desarrollador'@'localhost';
