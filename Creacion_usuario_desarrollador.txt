@@ -1,0 +1,5 @@
+mysql -u root
+CREATE USER 'administrador_sistema_registro_ptc_2024_desarrollador'@'localhost' IDENTIFIED BY '123456';
+GRANT SELECT, INSERT, UPDATE, DELETE ON sistema_registro_ptc_2024.* TO 'administrador_sistema_registro_ptc_2024_desarrollador'@'localhost';
+GRANT CREATE ROUTINE, ALTER ROUTINE, CREATE VIEW, TRIGGER ON sistema_registro_ptc_2024.* TO 'administrador_sistema_registro_ptc_2024_desarrollador'@'localhost';
+FLUSH PRIVILEGES;
