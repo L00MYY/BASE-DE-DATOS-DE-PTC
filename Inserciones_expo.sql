@@ -50,12 +50,12 @@ VALUES
  
  INSERT INTO especialidades (nombre_especialidad)
 VALUES
-('Auto'),
-('Emca'),
+('Automotriz'),
+('Electromecanica'),
 ('Software'),
-('Eca'),
-('Conta'),
-('Arqui');
+('Electronica'),
+('Contaduria'),
+('Arquitectura');
 
  --- insecion de profesores ---
  
@@ -113,7 +113,7 @@ VALUES
 INSERT INTO estado_propuestas (estado_propuesta)
 VALUES 
 ('Aprobada'),
-('En revicion'),
+('En revisión'),
 ('Denegada');
 
 --- insercion en cursos
